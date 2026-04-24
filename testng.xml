@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="name" value="abcd"></parameter>
+	<test thread-count="5" name="Practice Test Cases">
+		<classes>
+		<parameter name="url" value="abcd.com"></parameter>
+			<class name="TestNgg.Apple" />
+			<!--<methods>
+				<exclude name="mame" />
+			</methods>
+			<class name="TestNgg.Ball"/>
+       <class name="TestNgg.Cat"/>
+       <class name="TestNgg.Dog"/>-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
